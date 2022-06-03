@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='index.docker.io/bnewkk/tanzu-java-web-app-default-bundle:1bad4869-411d-4758-94f9-23860f0bdb7b')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='index.docker.io/bnewkk/tanzu-java-web-app-default')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 
