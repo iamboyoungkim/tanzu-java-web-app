@@ -2,6 +2,7 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: tanzu-java-web-app
+  namespace: dev-ns
   labels:
     app.kubernetes.io/part-of: tanzu-java-web-app
     apps.tanzu.vmware.com/workload-type: web
